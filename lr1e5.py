@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[1]:
-
-
 BATCH_SIZE = 4
 EDGE_CROP = 16
 NB_EPOCHS = 5
@@ -18,16 +12,6 @@ VALID_IMG_COUNT = 400
 # maximum number of steps_per_epoch in training
 MAX_TRAIN_STEPS = 200
 AUGMENT_BRIGHTNESS = False
-
-
-# In[9]:
-
-
-#ls D:\EC601\dataset    
-
-
-# In[10]:
-
 
 import os
 import numpy as np # linear algebra
